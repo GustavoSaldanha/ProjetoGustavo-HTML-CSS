@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/02/2017, 14:23:54
+    Author     : Aluno
+*/
+.cubo{
+    
+    background: blue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: myfirst 5S infinite; 
+    animation-direction: alternate; 
+}
+
+@keyframes myfirst {
+    0%   {background: white; left: 0px; top: 0px;}
+    25%  {background: blueviolet; left: 200px; top: 0px;}
+    50%  {background: gold; left: 200px; top: 200px;}
+    75%  {background: red; left: 0px; top: 200px;}
+    100% {background: white; left: 0px; top: 0px;}
+} 
+/*.cubo:hover{
+    animation-name: animacao;
+    animation-duration: 0.5s;
+}*/
+/*.cubo:hover{
+    box-shadow: 10px 50px 80px;
+}*/
+@keyframes animacao{
+    from{
+        background: gold;
+    }
+    to{
+        background: red;
+    }
+    
+}
+/*.cubo:hover{
+    background: gold;
+    width: 300px;
+    height: 300px;
+}*/
